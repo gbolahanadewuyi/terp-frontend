@@ -1,0 +1,31 @@
+const vendors =[
+  {"id":1,"vendor_name":"Kulas Group","address":"640 Steensland Center","contact":"+54 418 881 7772","email":"hgwin0@pagesperso-orange.fr","type":"Music"},
+{"id":2,"vendor_name":"Reichel Inc","address":"30 Pawling Road","contact":"+218 205 605 5054","email":"rcurtis1@google.ru","type":"Toys"},
+{"id":3,"vendor_name":"Schaden Inc","address":"8 Village Trail","contact":"+234 240 846 6575","email":"bradsdale2@hatena.ne.jp","type":"Home"},
+{"id":4,"vendor_name":"McKenzie-Kihn","address":"1655 Pearson Plaza","contact":"+972 104 997 5400","email":"rreihill3@drupal.org","type":"Industrial"},
+{"id":5,"vendor_name":"Nikolaus, Hudson and Rau","address":"16040 Hanover Crossing","contact":"+218 227 782 5259","email":"mclemett4@amazonaws.com","type":"Outdoors"},
+{"id":6,"vendor_name":"Ratke, Cole and Langosh","address":"77 Twin Pines Plaza","contact":"+1 315 361 0144","email":"rcolegrove5@woothemes.com","type":"Movies"},
+{"id":7,"vendor_name":"Runte, Bartell and Koepp","address":"33 Warner Hill","contact":"+7 312 359 9386","email":"eschrir6@huffingtonpost.com","type":"Home"},
+{"id":8,"vendor_name":"Christiansen, Moore and Hickle","address":"65 Wayridge Avenue","contact":"+1 513 308 2487","email":"ltunnah7@google.com.hk","type":"Sports"},
+{"id":9,"vendor_name":"Funk, McDermott and Nikolaus","address":"757 Lillian Place","contact":"+504 290 998 5151","email":"dderrington8@fema.gov","type":"Automotive"},
+{"id":10,"vendor_name":"Graham Group","address":"70779 Huxley Road","contact":"+52 831 832 8939","email":"bdigby9@prlog.org","type":"Computers"},
+{"id":11,"vendor_name":"Bergstrom and Sons","address":"91 Sutteridge Point","contact":"+86 319 889 7133","email":"ofortea@sakura.ne.jp","type":"Tools"},
+{"id":12,"vendor_name":"Boehm Inc","address":"75 Declaration Parkway","contact":"+30 718 278 0322","email":"cellerbeckb@alexa.com","type":"Industrial"},
+{"id":13,"vendor_name":"Howell and Sons","address":"7844 Little Fleur Park","contact":"+86 425 589 2190","email":"jworledgec@bravesites.com","type":"Tools"},
+{"id":14,"vendor_name":"Heathcote and Sons","address":"9 Huxley Alley","contact":"+86 294 114 3180","email":"nbeacomd@wordpress.com","type":"Garden"},
+{"id":15,"vendor_name":"Mraz LLC","address":"1382 Northland Crossing","contact":"+31 880 300 2907","email":"ebluchere@nasa.gov","type":"Health"},
+{"id":16,"vendor_name":"Will-Crona","address":"78 Fordem Center","contact":"+63 430 154 8203","email":"dhaskerf@theglobeandmail.com","type":"Baby"},
+{"id":17,"vendor_name":"Durgan-Kris","address":"3725 Hanson Plaza","contact":"+7 977 117 6181","email":"wcaslettg@businesswire.com","type":"Industrial"},
+{"id":18,"vendor_name":"Dickens Group","address":"2821 2nd Road","contact":"+255 349 189 8109","email":"srubinh@wufoo.com","type":"Kids"},
+{"id":19,"vendor_name":"Satterfield, Rowe and Schneider","address":"1707 Bartelt Alley","contact":"+351 184 193 9226","email":"mhuletti@home.pl","type":"Clothing"},
+{"id":20,"vendor_name":"Howell and Sons","address":"21548 Raven Court","contact":"+66 522 884 9223","email":"slefebrej@cloudflare.com","type":"Garden"},
+{"id":21,"vendor_name":"Pagac, Auer and Heidenreich","address":"609 Reinke Pass","contact":"+359 977 747 0340","email":"cjurekk@oracle.com","type":"Toys"},
+{"id":22,"vendor_name":"Zboncak-Hamill","address":"9843 Donald Street","contact":"+98 153 252 9409","email":"ebrittlebankl@weibo.com","type":"Books"},
+{"id":23,"vendor_name":"Mitchell Inc","address":"32 Utah Court","contact":"+358 919 411 9436","email":"covellm@nydailynews.com","type":"Health"},
+{"id":24,"vendor_name":"Bechtelar and Sons","address":"852 Mccormick Place","contact":"+48 997 456 5444","email":"khaythornn@timesonline.co.uk","type":"Home"},
+{"id":25,"vendor_name":"Terry, Crist and White","address":"74846 Hollow Ridge Terrace","contact":"+86 172 292 9359","email":"kloaldayo@ucoz.ru","type":"Baby"},
+{"id":26,"vendor_name":"Kautzer Group","address":"193 Fulton Parkway","contact":"+62 889 810 0277","email":"rtavinorp@comcast.net","type":"Toys"},
+{"id":27,"vendor_name":"Conroy-Nikolaus","address":"6 Bluejay Road","contact":"+86 148 922 0550","email":"jmcgillecoleq@zdnet.com","type":"Beauty"}]
+
+
+  export default vendors; 

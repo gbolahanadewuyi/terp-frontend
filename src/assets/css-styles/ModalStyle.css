@@ -1,0 +1,213 @@
+.xback-board{
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:20;
+    color: var(--dark-blue-rep);
+
+    /* if you want to control the z-inex, blur won't work */
+    /* background-color: rgba(0, 0, 0, 0.459); */
+}
+
+.xback-board::before{
+    content: "";
+    position: fixed;
+    bottom:0;
+    right:0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.459);
+    z-index:-1;
+    opacity: 0.4;
+    filter: blur(10px);
+}
+
+.xsvg-container svg{
+    width: 20px;
+}
+
+.modal-inner{
+    background-color: var(--whitex);
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 32px;
+    width: calc(80% - 240px);
+    transform:translateX(120px);
+    
+}
+
+
+/* edit modal */
+.modal-inner-edit{
+    background-color: var(--whitex);
+    border-radius: 10px;
+    margin: 100px auto;
+    width: calc(60% - 240px);
+    transform:translateX(120px);
+    color: var(--blue-rep);
+    /* padding: 0px 32px 32px; */
+}
+.modal-inner-edit-x{
+    background-color: var(--whitex);
+    border-radius: 10px;
+    margin: 100px auto;
+    width: calc(70% - 240px);
+    transform:translateX(60px);
+    color: var(--dark-blue-rep);
+}
+.modal-inner-edit-x2{
+    background-color: var(--whitex);
+    border-radius: 10px;
+    margin: 100px auto;
+    width: calc(80% - 240px);
+    transform:translateX(60px);
+    color: var(--dark-blue-rep);
+}
+.modal-inner-edit-x3{
+    background-color: var(--whitex);
+    border-radius: 10px;
+    margin: 100px auto;
+    width: calc(80% - 240px);
+    min-height: 90%;
+    transform:translateX(60px);
+    color: var(--dark-blue-rep);
+}
+.modal-edit-head{
+    background-color: var(--dark-blue-rep);
+    padding: 32px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modal-edit-head-v2{
+    background-color: var(--blue-rep);
+    padding: 2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modal-mail-head{
+    background-color: var(--dark-blue-rep);
+    padding: 6px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modal-headr{
+    font-size: 24px;
+    color: white;
+}
+.edit-modal-headr-x{
+    font-size: 16px;
+    color: white;
+}
+.flt-id{
+    font-size: 12px;
+    padding: 2.5px 14px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative; 
+    bottom: 20px;
+    /* position: absolute; 
+    top: 0%;
+    right: 20px; */
+}
+
+/* multiselect style */
+.chip{
+    color: #152C5B;
+    background-color:#ACB8CF;
+    border-radius: 5px;
+    border-radius: 2px;
+}
+
+.option:hover{
+    background-color: #138fff!important;
+}
+.highlightOption{
+    background-color: #138fff;
+}
+.highlight{
+    background-color: #138fff;
+}
+.search-wrapper.searchWrapper{
+    padding: 8px 12px;
+    background-color: #e5e7eb;
+}
+
+
+
+/* responsiveness */
+@media only screen and (max-width: 640px) {
+    .modal-inner{
+        border-radius: 10px;
+        margin: 40px auto;
+        padding: 32px;
+        width: 95%;
+        transform:translateX(0px);
+    }
+    /* edit modal */
+    .modal-inner-edit{
+        border-radius: 10px;
+        margin: 50px auto;
+        width: 95%;
+        transform:translateX(0px);
+    }
+    .modal-inner-edit-x{
+        border-radius: 10px;
+        margin: 50px auto;
+        width: 95%;
+        transform:translateX(0px);
+        
+    }
+    .modal-inner-edit-x2{
+        border-radius: 10px;
+        margin: 50px auto;
+        width: 95%;
+        transform:translateX(0px);
+        
+    }
+    .modal-inner-edit-x3{
+        border-radius: 10px;
+        margin: 50px auto;
+        min-height: 90%;
+        width: 95%;
+        transform:translateX(0px);
+        
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .modal-inner{
+        border-radius: 10px;
+        margin: 40px auto;
+        width: 95%;
+        transform:translateX(0px);
+    }
+    /* edit modal */
+    .modal-inner-edit{
+        border-radius: 10px;
+        margin: 50px auto;
+        width: 95%;
+        transform:translateX(0px);
+    }
+    .modal-inner-edit-x{
+        border-radius: 10px;
+        margin: 50px auto;
+        width: 95%;
+        transform:translateX(0px);
+        
+    }
+    .modal-inner-edit-x2{
+        border-radius: 10px;
+        margin: 50px auto;
+        width: 95%;
+        transform:translateX(0px);
+        
+    }
+    .modal-inner-edit-x3{
+        border-radius: 10px;
+        margin: 50px auto;
+        min-height: 90%;
+        width: 95%;
+        transform:translateX(0px);
+        
+    }
+}

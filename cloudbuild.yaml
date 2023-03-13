@@ -1,0 +1,14 @@
+steps:
+
+- id: build
+  name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    gcloud source repos clone TERP-Frontend "GCP PROJECT NAME"
+    gcloud app deploy app.yaml
+    curl -X POST --data-urlencode "payload={\"channel\": \"#terp\", \"username\": \"webhookbot\", \"text\": \"Terp has been deployed successfully.\", \"icon_emoji\": \":ghost:\"}" "slackworkspace url"
+timeout: "1600s"
+options:
+ logging: CLOUD_LOGGING_ONLY
